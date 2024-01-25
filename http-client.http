@@ -1,0 +1,8 @@
+POST http://localhost:8080/app/mail HTTP/1.1
+Content-Type: application/json
+
+{
+  "to":"lucassantana00@gmail.com",
+  "subject":"Testando",
+  "body":"<h1>Teste Olá </h1>"
+}
